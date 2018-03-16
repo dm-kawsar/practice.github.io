@@ -1,0 +1,36 @@
+#container{
+	width:500px;
+	margin:20px auto;
+}
+body div{
+	padding:10px 0;
+}
+table{
+	width:400px;
+}
+thead{
+	color:#fff;
+	background:green;
+}
+tbody{
+
+	background:tomato;
+	color:#c5ffca;
+}
+table, tr, th, td{
+	border:1px solid #dfdfdf;
+	padding:4px 5px;
+	text-align:center;
+}
+.data{
+	display:inline-block;
+	padding:5px 5px;
+}
+.data input{
+	display:inherit;
+	padding:5px 5px;
+	margin-top:5px;
+}
+.data input:last-child{
+	float: right;
+}
